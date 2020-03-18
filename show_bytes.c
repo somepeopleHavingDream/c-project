@@ -43,5 +43,7 @@ void test_show_bytes(int val)
 
 int main()
 {
-    test_show_bytes(12345);
+    // test_show_bytes(12345);
+    char s[] = "123456";
+    show_bytes(s, sizeof(s));
 }
